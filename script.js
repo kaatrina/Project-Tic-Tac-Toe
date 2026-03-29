@@ -192,7 +192,7 @@ const DisplayGame = function () {
         gamePlay.setGameActive(false);
         updateDisplay();
 
-        if (currentPlayer.score === 2) {
+        if (currentPlayer.score === 5) {
           scoreAndTurn.textContent = `${currentPlayer.name} wins the match! 🏆`;
           return;
         }
