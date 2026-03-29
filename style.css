@@ -1,0 +1,108 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.score {
+    color: red;
+    white-space: pre-line;
+    text-align: center;
+    margin-top: 80px;
+}
+.game_container {
+    height: 300px;
+    width: 300px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    border: 1px solid red;
+}
+
+.cell {
+    border: 1px solid red;
+}
+
+.x-mark {
+    background-color: red;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 50px;
+    color: white;
+}
+
+.o-mark {
+    color: red;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 50px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 35px;
+}
+
+.reset_btn button{
+    height: 30px;
+    width: 100px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 20px;
+}
+
+.reset_btn button:hover {
+    color: red;
+    background-color: white;
+    border: 2px solid red;
+}
+
+dialog {
+    background-color: white;
+    padding: 30px;
+}
+
+h2 {
+    margin-top: 0;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+form button {
+
+    align-self: center;
+    margin-top: 20px;
+    height: 34px;
+    width: 200px;
+    border-radius: 10px;
+    border: 2px solid gray;
+}
+
+input {
+
+    margin: 10px;
+    width: 170px;
+    border-radius: 5px;
+    border: 1px solid gray;
+
+}
+
+.name_form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+
+}
+
+form button:hover {
+
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+}

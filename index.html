@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project: Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="main">
+      <div><h2 class="score"></h2></div>
+      <div class="game_container"></div>
+
+      <div class="reset_btn">
+        <button>Reset</button>
+      </div>
+    </div>
+    <dialog id="myDialog">
+      <h2>Tic-Tac-Toe</h2>
+      <p>Hi! This is Tic-Tac-Toe — the classic game you know and love.</p>
+      <p>How to play:</p>
+      <ul>
+        <li>The game is played on a 3x3 grid.</li>
+        <li>Two players take turns: one uses X, the other uses O.</li>
+        <li>
+          The first player to get three of their marks in a row — horizontally,
+          vertically, or diagonally — wins.
+        </li>
+        <li>
+          If all nine squares are filled and no one has three in a row, the game
+          ends in a draw.
+        </li>
+      </ul>
+
+      <p>That's it. Simple, quick, and timeless.</p>
+      <p>Ready? Enter your name. Good luck!</p>
+      <form method="dialog">
+        <div class="name_form">
+        <label>First Player Name</label>
+        <input type="text" id="player_one_name" />
+
+        <label>Second Player Name</label>
+        <input type="text" id="player_two_name" />
+        </div>
+
+        <button value="play">Play</button>
+      </form>
+    </dialog>
+  </body>
+</html>
